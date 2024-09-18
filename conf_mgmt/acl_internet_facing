@@ -1,0 +1,54 @@
+ip access-list extended Acl-internet-ct_inbound_v2
+ permit tcp any host 155.126.176.69 eq 443
+ permit udp any host 155.126.176.69 eq non500-isakmp
+ permit gre any host 155.126.176.23
+ permit ip any host 155.126.176.23
+ permit tcp object-group Zscaler_Hub_IP object-group Zscaler_Service_IP
+ permit icmp object-group Zscaler_Hub_IP object-group Zscaler_Service_IP
+ permit tcp any object-group Zscaler_Service_IP established
+ permit tcp object-group Zscaler_Hub_IP object-group Zscaler_Management_IP
+ permit icmp object-group Zscaler_Hub_IP object-group Zscaler_Management_IP
+ permit tcp any object-group Zscaler_Management_IP established
+ permit ip object-group Zscaler_Hub_IP object-group Zscaler_IPMI_IP
+ permit icmp object-group Zscaler_Hub_IP object-group Zscaler_IPMI_IP
+ permit tcp any object-group Zscaler_IPMI_IP established
+ permit tcp any object-group Zscaler_LB_IP established
+ permit udp any eq domain object-group Zscaler_Service_IP
+ permit udp any eq domain object-group Zscaler_Management_IP
+ permit udp any eq ntp object-group Zscaler_Management_IP
+ permit udp any eq domain object-group Zscaler_LB_IP
+ permit icmp object-group Zscaler_Hub_IP host 155.126.176.23
+ permit tcp object-group Zscaler_Hub_IP host 155.126.176.23
+ permit tcp any host 155.126.176.23 eq www
+ permit tcp any host 155.126.176.23 eq 443
+ permit tcp any host 155.126.176.23 eq 8080
+ deny   tcp any 155.126.176.0 0.0.1.255 eq 22
+ permit ip any 155.126.177.0 0.0.0.255
+ permit ip any 155.126.176.96 0.0.0.31
+ permit ip any host 155.126.176.29
+ permit ip any host 155.126.176.33
+ permit ip any host 155.126.176.37
+ permit ip any host 155.126.176.42
+ permit ip any host 155.126.176.46
+ permit ip any 155.126.176.32 0.0.0.7
+ permit udp any eq domain object-group dns_return gt 1023
+ permit tcp any eq domain object-group dns_return gt 1023 established
+ permit icmp any any echo
+ permit icmp host 58.40.190.93 host 58.40.190.94
+ permit tcp any range 23456 24156 object-group sdwan_headend established
+ permit udp any object-group sdwan_headend range 12346 12426
+ permit object-group versa-director-netconf object-group versa-directors object-group versa-headends
+ permit object-group versa-services any object-group versa-headends
+ permit tcp host 8.8.8.8 eq domain 114.94.10.0 0.0.0.127
+ permit udp host 8.8.8.8 eq domain 114.94.10.0 0.0.0.127
+ permit udp host 208.67.222.222 eq domain 114.94.10.0 0.0.0.127
+ permit tcp host 208.67.222.222 eq domain 114.94.10.0 0.0.0.127
+ permit icmp any any echo-reply
+ permit icmp any any unreachable
+ permit icmp any any source-quench
+ permit icmp any any time-exceeded
+ permit icmp any any parameter-problem
+ permit udp any object-group flexvpn_service_ip eq isakmp
+ permit udp any object-group flexvpn_service_ip eq non500-isakmp
+ permit esp any object-group flexvpn_service_ip
+ deny   ip any any
