@@ -1,0 +1,1282 @@
+DEV-Leaf-02, Eth1/1, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/1, --, connected, 1999, 10G, 10Gbase-LR
+DEV-Spine-01, Eth1/1, connected-to-DEV-BLeaf-01-Ethernet1/57, connected, routed, 40G, QSFP-H40G-AOC2M
+DEV-Spine-02, Eth1/1, connected-to-DEV-BLeaf-01-Ethernet1/58, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-Bleaf-01, Eth1/1, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/1, --, connected, trunk, 10G, 10Gbase-LR
+PP-Bleaf-02, Eth1/1, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/1, PP-ND-01 Eth2-2, connected, 1999, 10G, 10Gbase-LR
+DEV-BLeaf-01, Eth1/1, --, connected, trunk, 10G, 10Gbase-LR
+PP-ALICSLeaf-02, Eth1/1, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/10, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/10, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/10, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/10, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/10, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/10, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/10, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/10, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/10, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/10, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/10, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/11, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/11, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/11, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/11, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/11, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/11, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/11, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/11, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/11, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/11, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/11, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/11, --, disabled, trunk, auto, 10g
+DEV-Leaf-01, Eth1/12, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/12, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/12, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/12, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/12, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/12, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/12, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/12, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/12, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/12, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/12, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/12, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/13, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/13, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/13, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/13, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/13, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/13, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/13, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/13, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/13, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/13, --, disabled, trunk, auto, 10g
+DEV-BLeaf-02, Eth1/13, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/13, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/14, PP-RTR-03 Gig0/0/11, connected, routed, 1000, 1000base-LH
+DEV-Leaf-01, Eth1/14, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/14, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/14, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/14, PP-RTR-03 Gig0/0/10, connected, routed, 1000, 1000base-LH
+PP-ALICSLeaf-02, Eth1/14, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/14, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/14, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/14, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/14, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/14, --, disabled, trunk, auto, 10g
+DEV-BLeaf-02, Eth1/14, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/15, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/14.1216, --, connected, routed, 1000, 1000base-LH
+PP-Leaf-01, Eth1/15, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/15, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/14.1216, --, connected, routed, 1000, 1000base-LH
+PP-ALICSLeaf-02, Eth1/15, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/15, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/15, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/15, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/15, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/15, --, disabled, trunk, auto, 10g
+DEV-BLeaf-02, Eth1/15, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/16, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/14.1222, --, connected, routed, 1000, 1000base-LH
+DEV-Spine-01, Eth1/16, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/16, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/14.1222, --, connected, routed, 1000, 1000base-LH
+DEV-BLeaf-01, Eth1/16, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/16, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/16, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/16, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/16, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/16, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/16, --, disabled, trunk, auto, 10g
+DEV-Leaf-01, Eth1/17, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/14.1234, --, connected, routed, 1000, 1000base-LH
+PP-Leaf-01, Eth1/17, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/17, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/14.1234, --, connected, routed, 1000, 1000base-LH
+DEV-BLeaf-01, Eth1/17, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/17, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/17, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/17, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/17, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/17, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/15, PP-RTR-04 Gig0/0/10, connected, routed, 1000, 1000base-LH
+DEV-Leaf-01, Eth1/18, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/18, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/18, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/18, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/15, PP-RTR-04 Gig0/0/11, connected, routed, 1000, 1000base-LH
+DEV-BLeaf-01, Eth1/18, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/18, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/18, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/18, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/18, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/18, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/15.1216, --, connected, routed, 1000, 1000base-LH
+DEV-Leaf-01, Eth1/19, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/19, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/19, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/19, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/15.1216, --, connected, routed, 1000, 1000base-LH
+DEV-BLeaf-01, Eth1/19, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/19, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/19, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/19, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/19, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/19, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/15.1222, --, connected, routed, 1000, 1000base-LH
+DEV-Leaf-01, Eth1/2, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/2, connected-to-DEV-Bleaf-02-Ethernet1/57, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-Leaf-01, Eth1/2, --, connected, 1999, 10G, 10Gbase-LR
+PP-Bleaf-02, Eth1/15.1222, --, connected, routed, 1000, 1000base-LH
+PP-ALICSLeaf-02, Eth1/2, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/2, --, connected, trunk, 10G, 10Gbase-LR
+PP-ALICSLeaf-01, Eth1/2, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/2, PP-ND-01 Eth2-2, connected, 1999, 10G, 10Gbase-LR
+DEV-Leaf-02, Eth1/2, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/2, connected-to-DEV-Bleaf-02-Ethernet1/58, connected, routed, 40G, QSFP-H40G-AOC2M
+DEV-BLeaf-02, Eth1/2, --, connected, trunk, 10G, 10Gbase-LR
+PP-Bleaf-01, Eth1/15.1234, --, connected, routed, 1000, 1000base-LH
+DEV-Leaf-01, Eth1/20, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/20, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/20, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/15.1234, --, connected, routed, 1000, 1000base-LH
+PP-ALICSLeaf-02, Eth1/20, tester_in_trust, xcvrAbsen, 1921, auto, --
+DEV-BLeaf-01, Eth1/20, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/20, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/20, tester_in_trust, xcvrAbsen, 1921, auto, --
+DEV-Spine-02, Eth1/20, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/20, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/20, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/16, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/21, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/21, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/21, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/16, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/21, tester_in_untrust, xcvrAbsen, 1221, auto, --
+DEV-BLeaf-01, Eth1/21, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/21, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/21, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/21, Untrust_vlan1221, xcvrAbsen, 1221, auto, --
+DEV-Spine-02, Eth1/21, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/21, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/22, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/22, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/22, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/22, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/17, PP-RTR-05 Ten 0/1/1, connected, routed, 10G, SFP-H10GB-AOC5M
+DEV-BLeaf-01, Eth1/22, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/22, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/22, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/22, tester_in_untrust, xcvrAbsen, 1221, auto, --
+DEV-BLeaf-02, Eth1/22, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/22, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/17.1911, --, connected, routed, 10G, SFP-H10GB-AOC5M
+DEV-Spine-01, Eth1/23, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/23, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/23, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/17.1911, --, connected, routed, 10G, SFP-H10GB-AOC5M
+PP-ALICSLeaf-02, Eth1/23, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/23, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/23, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/23, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/23, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/23, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/23, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/24, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/18, PP-RTR-06 Ten 0/1/0, connected, routed, 10G, SFP-H10GB-AOC5M
+DEV-Leaf-01, Eth1/24, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/24, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/24, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/18, PP-RTR-06 Ten 0/1/1, connected, routed, 10G, SFP-H10GB-AOC5M
+DEV-BLeaf-01, Eth1/24, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/24, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/24, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/24, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/24, UNUSED PORT, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/24, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/25, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/25, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/25, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/18.2911, --, connected, routed, 10G, SFP-H10GB-AOC5M
+PP-ALICSLeaf-02, Eth1/25, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/18.2911, --, connected, routed, 10G, SFP-H10GB-AOC5M
+DEV-BLeaf-01, Eth1/25, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/25, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/25, --, disabled, trunk, auto, 10g
+DEV-BLeaf-02, Eth1/25, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/25, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/25, UNUSED PORT, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/26, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/26, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/26, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/19, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/26, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/19, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/26, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/26, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/26, --, disabled, trunk, auto, 10g
+DEV-BLeaf-02, Eth1/26, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/26, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/26, UNUSED PORT, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/27, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/27, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/2, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/27, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/27, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/2, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/27, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/27, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/27, --, disabled, trunk, auto, 10g
+DEV-BLeaf-02, Eth1/27, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/27, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/27, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/28, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/28, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/20, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/28, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/28, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/28, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/20, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/28, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/28, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/28, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/28, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/28, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/29, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/29, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/21, NA-Hub-11|ge0/1.1912|VPN10|LAN, connected, routed, 1000, 1000base-T
+DEV-Spine-01, Eth1/29, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/29, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/21, NA-Hub-13|ge0/1.1912|VPN10|LAN, notconnec, routed, auto, 1000base-T
+PP-Leaf-02, Eth1/29, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/29, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/29, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/29, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/29, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/3, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/21.1217, --, connected, routed, 1000, 1000base-T
+PP-Leaf-01, Eth1/3, --, connected, 1999, 10G, 10Gbase-LR
+DEV-Spine-01, Eth1/3, connected-to-DEV-Leaf-01-Ethernet1/51, connected, routed, 40G, QSFP-40G-CR4
+PP-Bleaf-02, Eth1/21.1217, --, e, routed, auto, 1000base-T
+PP-ALICSLeaf-02, Eth1/3, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/3, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/3, PP-ND-01 Eth2-2, connected, 1999, 10G, 10Gbase-LR
+DEV-BLeaf-02, Eth1/3, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/3, --, disabled, trunk, auto, 10g
+DEV-Leaf-01, Eth1/30, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/3, connected-to-DEV-Leaf-01-Ethernet1/52, connected, routed, 40G, QSFP-40G-CR4
+PP-ALICSLeaf-01, Eth1/3, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-01, Eth1/30, --, disabled, trunk, auto, 10Gbase-LR
+DEV-Spine-01, Eth1/30, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/21.1912, --, connected, routed, 1000, 1000base-T
+PP-Bleaf-02, Eth1/22, --, notconnec, routed, auto, 1000base-T
+PP-ALICSLeaf-02, Eth1/30, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/30, LAN|IXIA|Source, notconnec, routed, auto, 10Gbase-LR
+PP-Leaf-02, Eth1/30, --, disabled, trunk, auto, 10Gbase-LR
+DEV-BLeaf-02, Eth1/30, LAN|IXIA|VRF Interent, notconnec, routed, auto, 10Gbase-LR
+DEV-Leaf-01, Eth1/31, --, disabled, trunk, auto, 10g
+DEV-Leaf-02, Eth1/30, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/30, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/30, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-01, Eth1/31, --, disabled, trunk, auto, 10Gbase-LR
+DEV-Spine-01, Eth1/31, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/22, NA-Hub-11|ge0/2.1913|VPN0|MPLS, connected, routed, 1000, 1000base-T
+PP-Bleaf-02, Eth1/23, --, notconnec, routed, auto, 1000base-T
+PP-ALICSLeaf-02, Eth1/31, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/30.10, LAN|IXIA|Source|Vlan10, e, routed, auto, 10Gbase-LR
+DEV-BLeaf-02, Eth1/30.50, LAN|IXIA|destination|Vlan50, e, routed, auto, 10Gbase-LR
+PP-Leaf-02, Eth1/31, --, disabled, trunk, auto, 10Gbase-LR
+DEV-Leaf-01, Eth1/32, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/31, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/31, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/31, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/22.1913, --, connected, routed, 1000, 1000base-T
+PP-Leaf-01, Eth1/32, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/32, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/23.1212, --, e, routed, auto, 1000base-T
+PP-ALICSLeaf-02, Eth1/32, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/30.20, LAN|IXIA|Source|Vlan20, e, routed, auto, 10Gbase-LR
+PP-Leaf-02, Eth1/32, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/30.60, LAN|IXIA|destination|Vlan60, e, routed, auto, 10Gbase-LR
+PP-ALICSLeaf-01, Eth1/32, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/33, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/32, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/32, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/33, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/23, NA-Hub-11|ge0/0.1212|VPN0|INET, connected, routed, 1000, 1000base-T
+DEV-Spine-01, Eth1/33, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/33, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/24, --, notconnec, routed, auto, 1000base-T
+DEV-BLeaf-02, Eth1/30.70, LAN|IXIA|destination|Vlan70, e, routed, auto, 10Gbase-LR
+PP-ALICSLeaf-02, Eth1/33, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/30.30, LAN|IXIA|Source|Vlan30, e, routed, auto, 10Gbase-LR
+PP-ALICSLeaf-01, Eth1/33, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/34, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/33, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/33, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/34, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/23.1212, --, connected, routed, 1000, 1000base-T
+DEV-Spine-01, Eth1/34, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/34, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/30.80, LAN|IXIA|destination|Vlan80, e, routed, auto, 10Gbase-LR
+DEV-BLeaf-01, Eth1/30.40, LAN|IXIA|Source|Vlan40, e, routed, auto, 10Gbase-LR
+PP-Bleaf-02, Eth1/24.1217, --, e, routed, auto, 1000base-T
+PP-ALICSLeaf-02, Eth1/34, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/35, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/34, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/34, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/34, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/35, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/24, NA-Hub-12|12ge2/3|VPN10|VPN20, connected, routed, 1000, 1000base-T
+PP-Leaf-02, Eth1/35, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/35, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/31, LAN|USCVG01LSWS010-B|E1/7, connected, trunk, 10G, 10Gbase-LR
+DEV-BLeaf-02, Eth1/31, LAN|USCVG01LSWS010-B|E1/8, connected, trunk, 10G, 10Gbase-LR
+PP-Bleaf-02, Eth1/25, --, notconnec, routed, auto, 1000base-T
+PP-ALICSLeaf-02, Eth1/35, ALICS-host03-ILO, connected, 251, 1000, 1000base-T
+DEV-Leaf-01, Eth1/36, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/35, ALICS-host01-ILO, connected, 251, 1000, 1000base-T
+DEV-Spine-02, Eth1/35, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/35, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/24.1217, --, connected, routed, 1000, 1000base-T
+PP-Leaf-01, Eth1/36, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/36, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/36, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/26, --, notconnec, routed, auto, 1000base-T
+DEV-BLeaf-02, Eth1/32, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/32, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/36, ALICS-host04-ILO, connected, 251, 1000, 1000base-T
+DEV-Leaf-01, Eth1/37, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/36, ALICS-host02-ILO, connected, 251, 1000, 1000base-T
+DEV-Leaf-02, Eth1/36, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/36, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/37, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/25, NA-Hub-12|Ge2/1|VPN0, connected, routed, 1000, 1000base-T
+PP-Bleaf-02, Eth1/26.1212, --, e, routed, auto, 1000base-T
+DEV-Spine-01, Eth1/37, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/37, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/33, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/37, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/33, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/38, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/37, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/37, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/37, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/26, NA-Hub-12|Ge2/0|VPN0, connected, routed, 1000, 1000base-T
+PP-Leaf-01, Eth1/38, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/27, --, connected, trunk, 10G, 10Gbase-LR
+PP-Leaf-02, Eth1/38, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/34, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/38, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/38, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/34, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/38, --, disabled, trunk, auto, 10g
+DEV-Leaf-01, Eth1/39, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/38, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/26.1212, --, connected, routed, 1000, 1000base-T
+DEV-Spine-02, Eth1/38, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/39, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/35, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/28, --, connected, trunk, 10G, 10Gbase-LR
+PP-ALICSLeaf-02, Eth1/39, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/39, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/39, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/35, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/39, --, disabled, trunk, auto, 10g
+DEV-Leaf-01, Eth1/4, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/39, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/39, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/27, --, connected, trunk, 10G, 10Gbase-LR
+PP-Leaf-01, Eth1/4, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/36, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/29, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/4, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/4, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/4, connected-to-DEV-Leaf-02-Ethernet1/51, connected, routed, 40G, QSFP-40G-CR4
+DEV-Leaf-02, Eth1/4, --, disabled, trunk, auto, 10g
+DEV-BLeaf-01, Eth1/36, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/4, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-01, Eth1/40, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/4, connected-to-DEV-Leaf-02-Ethernet1/52, connected, routed, 40G, QSFP-40G-CR4
+PP-Leaf-01, Eth1/40, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/28, --, connected, trunk, 10G, 10Gbase-LR
+DEV-BLeaf-02, Eth1/37, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/3, PP-RTR-01 Ten1/0/1, connected, routed, 10G, SFP-H10GB-AOC5M
+PP-Leaf-02, Eth1/40, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/40, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/40, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/40, --, disabled, trunk, auto, 10g
+DEV-BLeaf-01, Eth1/37, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/41, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/40, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/40, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/29, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/41, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/3.2916, --, connected, routed, 10G, SFP-H10GB-AOC5M
+DEV-BLeaf-02, Eth1/38, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/41, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/41, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/41, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/41, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/41, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/38, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/42, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/41, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/42, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/3, PP-RTR-01 Ten1/0/2, connected, routed, 10G, SFP-H10GB-AOC5M
+PP-Bleaf-02, Eth1/30, --, disabled, routed, auto, 10Gbase-LR
+DEV-BLeaf-02, Eth1/39, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/42, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/42, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/42, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/42, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/42, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/39, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/43, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/42, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/43, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/31, --, disabled, routed, auto, 10Gbase-LR
+PP-Bleaf-01, Eth1/3.2916, --, connected, routed, 10G, SFP-H10GB-AOC5M
+DEV-BLeaf-02, Eth1/4, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/43, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/43, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/43, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/43, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/43, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/4, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/44, --, disabled, trunk, auto, 10g
+PP-Leaf-01, Eth1/44, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/43, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/30, --, connected, routed, 10G, 10Gbase-LR
+PP-Bleaf-02, Eth1/32, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/40, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/44, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/44, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/44, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/44, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-01, Eth1/44, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/40, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/45, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/44, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/45, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/31, --, connected, routed, 10G, 10Gbase-LR
+DEV-BLeaf-02, Eth1/41, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/33, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/45, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/45, --, disabled, trunk, auto, 10g
+PP-Leaf-02, Eth1/45, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/45, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-01, Eth1/46, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/41, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/45, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/45, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/46, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/32, --, disabled, routed, auto, 1000base-T
+DEV-BLeaf-02, Eth1/42, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/34, --, disabled, routed, auto, 1000base-T
+DEV-Spine-01, Eth1/46, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/46, --, disabled, trunk, auto, 10g
+PP-Leaf-02, Eth1/46, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/46, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-01, Eth1/47, UPLINK FEX101, connected, 1, 10G, 10Gbase-LR
+DEV-BLeaf-01, Eth1/42, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/46, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/46, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/47, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/33, --, disabled, routed, auto, 1000base-T
+DEV-BLeaf-02, Eth1/43, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/35, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/47, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/47, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/47, UPLINK FEX101, connected, 1, 10G, 10Gbase-LR
+PP-Leaf-01, Eth1/48, UPLINK FEX101, connected, 1, 10G, 10Gbase-LR
+DEV-BLeaf-01, Eth1/43, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/47, --, disabled, trunk, auto, 10Gbase-LR
+PP-ALICSLeaf-01, Eth1/47, --, disabled, trunk, auto, 10Gbase-LR
+DEV-Spine-02, Eth1/47, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/34, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/48, --, disabled, trunk, auto, 10g
+DEV-BLeaf-02, Eth1/44, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/36, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/48, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/48, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/48, UPLINK FEX101, connected, 1, 10G, 10Gbase-LR
+DEV-BLeaf-01, Eth1/44, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/49, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/48, --, disabled, trunk, auto, 10Gbase-LR
+DEV-Spine-02, Eth1/48, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/35, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/49, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/45, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/37, --, disabled, routed, auto, 10Gbase-LR
+DEV-Leaf-02, Eth1/49, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/49, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/49, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/49, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/49, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-01, Eth1/45, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/5, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-01, Eth1/36, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/49, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/5, --, disabled, trunk, auto, 10g
+DEV-BLeaf-02, Eth1/46, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/38, --, disabled, routed, auto, 10Gbase-LR
+PP-Leaf-02, Eth1/5, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-02, Eth1/5, --, connected, trunk, 25G, SFP-H25GB-AOC3M
+DEV-Leaf-02, Eth1/5, --, disabled, trunk, auto, 10g
+DEV-BLeaf-01, Eth1/46, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/5, --, connected, trunk, 25G, SFP-H25GB-AOC3M
+PP-Bleaf-01, Eth1/37, --, connected, 1939, 10G, 10Gbase-LR
+DEV-Spine-02, Eth1/5, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/50, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/39, --, disabled, routed, auto, 10Gbase-LR
+DEV-BLeaf-02, Eth1/47, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/50, --, xcvrAbsen, trunk, auto, --
+DEV-Leaf-02, Eth1/50, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/50, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/50, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/38, --, disabled, routed, auto, 10Gbase-LR
+PP-Leaf-01, Eth1/51, connected-to-PP-Spine-01-Ethernet1/3, connected, routed, 40G, QSFP-H40G-AOC2M
+DEV-BLeaf-01, Eth1/47, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/50, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/50, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/51, connected-to-DEV-Spine-01-Ethernet1/3, connected, routed, 40G, QSFP-40G-CR4
+DEV-BLeaf-02, Eth1/48, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/4, PP-RTR-02 Ten1/0/1, connected, routed, 10G, SFP-H10GB-AOC5M
+PP-ALICSLeaf-02, Eth1/51, connected-to-PP-Spine-01-Ethernet1/6, connected, routed, 40G, QSFP-H40G-AOC5M
+DEV-Leaf-02, Eth1/51, connected-to-DEV-Spine-01-Ethernet1/4, connected, routed, 40G, QSFP-40G-CR4
+PP-Bleaf-01, Eth1/39, --, disabled, routed, auto, 10Gbase-LR
+DEV-BLeaf-01, Eth1/48, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/51, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/51, connected-to-PP-Spine-01-Ethernet1/4, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-Leaf-01, Eth1/52, connected-to-PP-Spine-02-Ethernet1/3, connected, routed, 40G, QSFP-H40G-AOC3M
+PP-ALICSLeaf-01, Eth1/51, connected-to-PP-Spine-01-Ethernet1/5, connected, routed, 40G, QSFP-H40G-AOC5M
+DEV-Leaf-01, Eth1/52, connected-to-DEV-Spine-02-Ethernet1/3, connected, routed, 40G, QSFP-40G-CR4
+DEV-Spine-02, Eth1/51, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/49, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/4.2917, --, connected, routed, 10G, SFP-H10GB-AOC5M
+PP-ALICSLeaf-02, Eth1/52, connected-to-PP-Spine-02-Ethernet1/6, connected, routed, 40G, QSFP-H40G-AOC5M
+DEV-Leaf-02, Eth1/52, connected-to-DEV-Spine-02-Ethernet1/4, connected, routed, 40G, QSFP-40G-CR4
+PP-Bleaf-01, Eth1/4, PP-RTR-02 Ten1/0/2, connected, routed, 10G, SFP-H10GB-AOC7M
+DEV-Spine-01, Eth1/52, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/49, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/52, connected-to-PP-Spine-02-Ethernet1/4, connected, routed, 40G, QSFP-H40G-AOC3M
+PP-Leaf-01, Eth1/53, "PO 500 (vpc-peer-link) member PP-Leaf-01-Ethernet1/53 to PP-Leaf-02-Ethernet1/53", connected, trunk, 40G, QSFP-H40G-AOC2M
+PP-ALICSLeaf-01, Eth1/52, connected-to-PP-Spine-02-Ethernet1/5, connected, routed, 40G, QSFP-H40G-AOC5M
+DEV-Leaf-01, Eth1/53, "PO 500 (vpc-peer-link) member DEV-Leaf-01-Ethernet1/53 to DEV-Leaf-02-Ethernet1/53", connected, trunk, 40G, QSFP-40G-CR4
+DEV-Spine-02, Eth1/52, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/5, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/40, --, disabled, routed, auto, 10Gbase-LR
+PP-ALICSLeaf-02, Eth1/53, "PO 500 (vpc-peer-link) member PP-ALICSLeaf-02-Ethernet1/53 to PP-ALICSLeaf-01-Ethernet1/53", connected, trunk, 100G, QSFP-100G-AOC1M
+DEV-Leaf-02, Eth1/53, "PO 500 (vpc-peer-link) member DEV-Leaf-02-Ethernet1/53 to DEV-Leaf-01-Ethernet1/53", connected, trunk, 40G, QSFP-40G-CR4
+DEV-Spine-01, Eth1/53, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/5, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/4.2917, --, connected, routed, 10G, SFP-H10GB-AOC7M
+PP-Leaf-02, Eth1/53, "PO 500 (vpc-peer-link) member PP-Leaf-02-Ethernet1/53 to PP-Leaf-01-Ethernet1/53", connected, trunk, 40G, QSFP-H40G-AOC2M
+PP-Leaf-01, Eth1/54, "PO 500 (vpc-peer-link) member PP-Leaf-01-Ethernet1/54 to PP-Leaf-02-Ethernet1/54", connected, trunk, 40G, QSFP-H40G-AOC2M
+PP-ALICSLeaf-01, Eth1/53, "PO 500 (vpc-peer-link) member PP-ALICSLeaf-01-Ethernet1/53 to PP-ALICSLeaf-02-Ethernet1/53", connected, trunk, 100G, QSFP-100G-AOC1M
+DEV-BLeaf-02, Eth1/50, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/54, "PO 500 (vpc-peer-link) member DEV-Leaf-01-Ethernet1/54 to DEV-Leaf-02-Ethernet1/54", connected, trunk, 40G, QSFP-40G-CR4
+DEV-Spine-02, Eth1/53, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/41, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/54, "PO 500 (vpc-peer-link) member PP-ALICSLeaf-02-Ethernet1/54 to PP-ALICSLeaf-01-Ethernet1/54", connected, trunk, 100G, QSFP-100G-AOC1M
+DEV-Leaf-02, Eth1/54, "PO 500 (vpc-peer-link) member DEV-Leaf-02-Ethernet1/54 to DEV-Leaf-01-Ethernet1/54", connected, trunk, 40G, QSFP-40G-CR4
+DEV-BLeaf-01, Eth1/50, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/54, "PO 500 (vpc-peer-link) member PP-Leaf-02-Ethernet1/54 to PP-Leaf-01-Ethernet1/54", connected, trunk, 40G, QSFP-H40G-AOC2M
+DEV-Spine-01, Eth1/54, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/40, --, disabled, routed, auto, 10Gbase-LR
+PP-Leaf-01, Eth1/6, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/54, "PO 500 (vpc-peer-link) member PP-ALICSLeaf-01-Ethernet1/54 to PP-ALICSLeaf-02-Ethernet1/54", connected, trunk, 100G, QSFP-100G-AOC1M
+DEV-Leaf-01, Eth1/6, --, disabled, trunk, auto, 10g
+DEV-Spine-02, Eth1/54, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/51, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/42, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/6, --, connected, trunk, 25G, SFP-H25GB-AOC3M
+DEV-Leaf-02, Eth1/6, --, disabled, trunk, auto, 10g
+DEV-BLeaf-01, Eth1/51, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/6, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/55, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/41, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/7, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/6, --, connected, trunk, 25G, SFP-H25GB-AOC3M
+DEV-BLeaf-02, Eth1/52, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/55, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/7, --, disabled, trunk, auto, 10g
+PP-Bleaf-02, Eth1/43, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/7, --, connected, trunk, 25G, SFP-H25GB-AOC3M
+DEV-BLeaf-01, Eth1/52, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/56, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/7, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/42, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth1/8, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-02, Eth1/7, --, xcvrAbsen, trunk, auto, --
+PP-ALICSLeaf-01, Eth1/7, --, connected, trunk, 25G, SFP-H25GB-AOC3M
+DEV-BLeaf-02, Eth1/53, --, connected, routed, 40G, QSFP-H40G-AOC2M
+DEV-Spine-02, Eth1/56, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/8, --, disabled, trunk, auto, 10g
+PP-Bleaf-02, Eth1/44, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Eth1/8, --, connected, trunk, 25G, SFP-H25GB-AOC3M
+DEV-BLeaf-01, Eth1/53, --, connected, routed, 40G, QSFP-H40G-AOC2M
+DEV-Leaf-02, Eth1/8, --, disabled, trunk, auto, 10g
+PP-Bleaf-01, Eth1/43, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth1/8, --, xcvrAbsen, trunk, auto, --
+PP-Leaf-01, Eth1/9, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-01, Eth1/57, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/8, --, connected, trunk, 25G, SFP-H25GB-AOC3M
+DEV-BLeaf-02, Eth1/54, --, connected, routed, 40G, QSFP-H40G-AOC3M
+DEV-Spine-02, Eth1/57, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Eth1/9, --, disabled, trunk, auto, 10g
+PP-ALICSLeaf-02, Eth1/9, --, xcvrAbsen, trunk, auto, --
+PP-Bleaf-02, Eth1/45, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/54, --, connected, routed, 40G, QSFP-H40G-AOC3M
+PP-Bleaf-01, Eth1/44, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Eth1/9, --, disabled, trunk, auto, 10g
+DEV-Spine-01, Eth1/58, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth101/1/1, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth1/9, --, xcvrAbsen, trunk, auto, --
+DEV-BLeaf-02, Eth1/55, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Eth1/9, --, xcvrAbsen, trunk, auto, --
+DEV-Spine-02, Eth1/58, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-01, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Bleaf-02, Eth1/46, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Bleaf-01, Eth1/45, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/55, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/1, --, disabled, 1, auto, 100/1g
+DEV-Spine-01, Eth1/59, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth101/1/10, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Eth1/56, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-01, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Bleaf-02, Eth1/47, --, disabled, routed, auto, 10Gbase-LR
+DEV-Spine-02, Eth1/59, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Lo1, VTEP loopback interface, connected, routed, auto, --
+DEV-Leaf-01, Lo1, VTEP loopback interface, connected, routed, auto, --
+PP-Bleaf-01, Eth1/46, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/6, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/56, --, xcvrAbsen, routed, auto, --
+DEV-Leaf-02, Lo1, VTEP loopback interface, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/11, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/10, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Eth1/57, connected-to-DEV-Spine-01-Ethernet1/2, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-ALICSLeaf-01, Lo1, VTEP loopback interface, connected, routed, auto, --
+DEV-Spine-02, Eth1/6, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/48, --, disabled, routed, auto, 10Gbase-LR
+DEV-Leaf-01, Po500, "vpc-peer-link DEV-Leaf-01--DEV-Leaf-02", connected, trunk, 40G, --
+PP-Bleaf-01, Eth1/47, --, disabled, routed, auto, 10Gbase-LR
+PP-ALICSLeaf-02, Lo4, --, connected, routed, auto, --
+DEV-Spine-01, Eth1/60, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/57, connected-to-DEV-Spine-01-Ethernet1/1, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-Leaf-01, Eth101/1/12, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/11, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Eth1/58, connected-to-DEV-Spine-02-Ethernet1/2, connected, routed, 40G, QSFP-H40G-AOC2M
+DEV-Leaf-02, Po500, "vpc-peer-link DEV-Leaf-02--DEV-Leaf-01", connected, trunk, 40G, --
+PP-ALICSLeaf-01, Lo4, --, connected, routed, auto, --
+DEV-Spine-02, Eth1/60, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/49, --, disabled, routed, auto, QSFP-100G-AOC1M
+PP-Bleaf-01, Eth1/48, --, disabled, routed, auto, 10Gbase-LR
+DEV-Leaf-01, Vlan1, --, down, routed, auto, --
+DEV-Spine-01, Eth1/61, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Lo5, --, connected, routed, auto, --
+DEV-BLeaf-01, Eth1/58, connected-to-DEV-Spine-02-Ethernet1/1, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-Leaf-01, Eth101/1/13, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Eth1/59, "PO 500 (vpc-peer-link) member DEV-Bleaf-02-Ethernet1/59 to DEV-BLeaf-01-Ethernet1/59", connected, trunk, 100G, QSFP-100G-AOC2M
+PP-Leaf-02, Eth101/1/12, --, disabled, 1, auto, 100/1g
+DEV-Leaf-02, Vlan1, --, down, routed, auto, --
+PP-ALICSLeaf-01, Lo5, --, connected, routed, auto, --
+DEV-Spine-02, Eth1/61, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/49, --, connected, routed, 100G, QSFP-100G-AOC1M
+PP-Bleaf-02, Eth1/5, NA-VEP-12 CNF-LAN vni-0/4, connected, routed, 10G, 10Gbase-LR
+DEV-Leaf-01, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+DEV-BLeaf-01, Eth1/59, "PO 500 (vpc-peer-link) member DEV-BLeaf-01-Ethernet1/59 to DEV-Bleaf-02-Ethernet1/59", connected, trunk, 100G, QSFP-100G-AOC2M
+PP-ALICSLeaf-02, Po500, "vpc-peer-link PP-ALICSLeaf-02--PP-ALICSLeaf-01", connected, trunk, 100G, --
+DEV-Spine-01, Eth1/62, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/6, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth101/1/14, --, disabled, 1, auto, 100/1g
+DEV-Leaf-02, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/13, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Po500, "vpc-peer-link PP-ALICSLeaf-01--PP-ALICSLeaf-02", connected, trunk, 100G, --
+DEV-Spine-02, Eth1/62, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/5, NA-VEP-11 vni-0/4, connected, routed, 10G, 10Gbase-LR
+PP-Bleaf-02, Eth1/5.1217, --, connected, routed, 10G, 10Gbase-LR
+DEV-Leaf-01, mgmt0, --, connected, routed, 1000, --
+DEV-BLeaf-01, Eth1/6, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Vlan1, --, down, routed, auto, --
+DEV-BLeaf-02, Eth1/60, "PO 500 (vpc-peer-link) member DEV-Bleaf-02-Ethernet1/60 to DEV-BLeaf-01-Ethernet1/60", connected, trunk, 100G, QSFP-100G-AOC2M
+DEV-Spine-01, Eth1/63, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth101/1/14, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/15, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Vlan1, --, down, routed, auto, --
+DEV-Leaf-02, mgmt0, --, connected, routed, 1000, --
+DEV-Spine-02, Eth1/63, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/5.1912, --, connected, routed, 10G, 10Gbase-LR
+PP-Bleaf-01, Eth1/5.1217, --, connected, routed, 10G, 10Gbase-LR
+DEV-Leaf-01, nve1, --, connected, --, auto, --
+DEV-BLeaf-01, Eth1/60, "PO 500 (vpc-peer-link) member DEV-BLeaf-01-Ethernet1/60 to DEV-Bleaf-02-Ethernet1/60", connected, trunk, 100G, QSFP-100G-AOC2M
+DEV-Spine-01, Eth1/64, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/7, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Vlan1221, LAN|fortigate|internet|untrust fw:outside:Fortient_FW:Fortinet_FW:Eth:Fortinet_INT, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/15, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/16, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Vlan1221, LAN|fortigate|internet|untrust fw:outside:Fortient_FW:Fortinet_FW:Eth:Fortinet_INT, connected, routed, auto, --
+DEV-Leaf-02, nve1, --, connected, --, auto, --
+DEV-Spine-02, Eth1/64, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/50, --, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-Bleaf-01, Eth1/5.1912, --, connected, routed, 10G, 10Gbase-LR
+DEV-BLeaf-01, Eth1/7, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/65, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/8, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Vlan1921, LAN|fortigate|internet|trust fw:inside:Fortient_FW:Fortinet_FW:Eth:Fortinet_INT, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/16, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/17, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Vlan1921, LAN|fortigate|internet|trust fw:inside:Fortient_FW:Fortinet_FW:Eth:Fortinet_INT, connected, routed, auto, --
+PP-Bleaf-02, Eth1/51, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Eth1/8, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/65, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/50, --, disabled, routed, auto, QSFP-H40G-AOC2M
+DEV-Spine-01, Eth1/66, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Eth1/9, --, xcvrAbsen, routed, auto, --
+PP-ALICSLeaf-02, Vlan1999, --, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/17, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/18, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Vlan1999, --, connected, routed, auto, --
+DEV-BLeaf-01, Eth1/9, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Eth1/52, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/7, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/66, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/51, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-ALICSLeaf-02, Vlan251, ALICS-MGMT-VLAN, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/18, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/19, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Vlan251, ALICS-MGMT-VLAN, connected, routed, auto, --
+PP-Bleaf-02, Eth1/53, PP-BLeaf01 Po501, connected, routed, 40G, QSFP-H40G-AOC3M
+DEV-BLeaf-01, Lo0, Routing loopback interface, connected, routed, auto, --
+DEV-Spine-02, Eth1/7, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/52, --, xcvrAbsen, routed, auto, --
+DEV-Spine-01, Eth1/8, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-02, Lo1, VTEP loopback interface, connected, routed, auto, --
+PP-ALICSLeaf-02, Vlan3000, GLOBAL_VRF_VLAN, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/2, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/19, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Vlan3000, GLOBAL_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-02, Eth1/54, PP-BLeaf01 Po501, connected, routed, 40G, QSFP-H40G-AOC3M
+DEV-Spine-01, Eth1/9, --, xcvrAbsen, routed, auto, --
+DEV-Spine-02, Eth1/8, --, xcvrAbsen, routed, auto, --
+DEV-BLeaf-01, Lo1, VTEP loopback interface, connected, routed, auto, --
+PP-Bleaf-01, Eth1/53, PP-BLeaf02 Po501, connected, routed, 40G, QSFP-H40G-AOC3M
+DEV-BLeaf-02, Lo2, --, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/20, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-02, Vlan3001, INTERNET_VRF_VLAN, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/2, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Vlan3001, INTERNET_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-02, Eth1/55, PP-FTD-01 Po3, connected, trunk, 40G, QSFP-H40G-AOC5M
+DEV-Spine-01, Lo0, Routing loopback interface, connected, routed, auto, --
+DEV-Spine-02, Eth1/9, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/54, PP-BLeaf02 Po501, connected, routed, 40G, QSFP-H40G-AOC3M
+DEV-BLeaf-01, Lo2, --, connected, routed, auto, --
+DEV-BLeaf-02, Lo3, --, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/21, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-02, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/20, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-01, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Bleaf-02, Eth1/56, PP-FTD-02 Po3, connected, trunk, 40G, QSFP-H40G-AOC5M
+DEV-Spine-01, Lo230, RP loopback interface, connected, routed, auto, --
+DEV-BLeaf-02, Po10, LAN|PP-CSP-PO, connected, trunk, 10G, --
+DEV-BLeaf-01, Lo3, --, connected, routed, auto, --
+PP-Bleaf-01, Eth1/55, PP-FTD-01 Po3, connected, trunk, 40G, QSFP-H40G-AOC2M
+DEV-Spine-02, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/22, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/21, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-02, mgmt0, --, connected, routed, 1000, --
+PP-ALICSLeaf-01, mgmt0, --, connected, routed, 1000, --
+PP-Bleaf-02, Eth1/57, connected-to-PP-Spine-01-Ethernet1/2, connected, routed, 40G, QSFP-H40G-AOC2M
+DEV-Spine-01, mgmt0, --, connected, routed, 1000, --
+DEV-BLeaf-02, Po20, LAN|DEV-CSP-PO, connected, trunk, 10G, --
+PP-Bleaf-01, Eth1/56, PP-FTD-02 Po3, connected, trunk, 40G, QSFP-H40G-AOC2M
+DEV-BLeaf-01, Po10, LAN|PP-CSP-PO, connected, trunk, 10G, --
+DEV-Spine-02, Lo230, RP loopback interface, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/23, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/22, --, disabled, 1, auto, 100/1g
+PP-ALICSLeaf-02, nve1, --, connected, --, auto, --
+PP-ALICSLeaf-01, nve1, --, connected, --, auto, --
+DEV-BLeaf-02, Po500, "vpc-peer-link DEV-Bleaf-02--DEV-BLeaf-01", connected, trunk, 100G, --
+PP-Bleaf-02, Eth1/58, connected-to-PP-Spine-02-Ethernet1/2, connected, routed, 40G, QSFP-H40G-AOC2M
+DEV-BLeaf-01, Po20, LAN|DEV-CSP-PO, connected, trunk, 10G, --
+DEV-Spine-02, mgmt0, --, connected, routed, 1000, --
+PP-Bleaf-01, Eth1/57, connected-to-PP-Spine-01-Ethernet1/1, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-Leaf-01, Eth101/1/24, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/23, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Vlan1, --, down, routed, auto, --
+DEV-BLeaf-01, Po500, "vpc-peer-link DEV-BLeaf-01--DEV-Bleaf-02", connected, trunk, 100G, --
+PP-Leaf-01, Eth101/1/25, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Eth1/59, "PO 500 (vpc-peer-link) member PP-Bleaf-02-Ethernet1/59 to PP-Bleaf-01-Ethernet1/59", connected, trunk, 100G, QSFP-100G-AOC2M
+PP-Bleaf-01, Eth1/58, connected-to-PP-Spine-02-Ethernet1/1, connected, routed, 40G, QSFP-H40G-AOC2M
+PP-Leaf-02, Eth101/1/24, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Vlan112, Fortigate-trust fw:inside:DEV-CSP:Dev-FortiGate:Eth1:FortiGate, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/26, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/25, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan1, --, down, routed, auto, --
+PP-Bleaf-02, Eth1/6, NA-VEP-12.vni-0/6, connected, routed, 10G, 10Gbase-LR
+PP-Bleaf-01, Eth1/59, "PO 500 (vpc-peer-link) member PP-Bleaf-01-Ethernet1/59 to PP-Bleaf-02-Ethernet1/59", connected, trunk, 100G, QSFP-100G-AOC2M
+DEV-BLeaf-02, Vlan122, Palo-inside fw:inside:DEV-CSP:Dev-Palo:Eth1:DEV-Palo, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/27, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/26, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan112, Fortigate-trust fw:inside:DEV-CSP:Dev-FortiGate:Eth1:FortiGate, connected, routed, auto, --
+PP-Bleaf-02, Eth1/6.1212, NA-VEP-12.vni-0/6.1212, connected, routed, 10G, 10Gbase-LR
+PP-Bleaf-01, Eth1/6, NA-VEP-11 vni-0/6, connected, routed, 10G, 10Gbase-LR
+PP-Leaf-01, Eth101/1/28, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Vlan1221, DEV-RTR-03-FW|G6 fw:outside:DEV-CSP:DEV-RTR-03-FW:G1:DEV-RTR-03-FW, connected, routed, auto, --
+DEV-BLeaf-01, Vlan122, Palo-inside fw:inside:DEV-CSP:Dev-Palo:Eth1:DEV-Palo, connected, routed, auto, --
+PP-Bleaf-02, Eth1/60, "PO 500 (vpc-peer-link) member PP-Bleaf-02-Ethernet1/60 to PP-Bleaf-01-Ethernet1/60", connected, trunk, 100G, QSFP-100G-AOC2M
+PP-Leaf-02, Eth101/1/27, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Eth1/6.1212, NA-VEP-11 vni-0/6.1212, connected, routed, 10G, 10Gbase-LR
+PP-Leaf-01, Eth101/1/29, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Vlan1911, LAN|DEV-RTR-05|G1 vnf:one:DEV-INTERNET:DEV-RTR-05:G1:DEV-RTR-05, connected, routed, auto, --
+DEV-BLeaf-01, Vlan1221, DEV-RTR-03-FW|G6 fw:outside:DEV-CSP:DEV-RTR-03-FW:G1:DEV-RTR-03-FW, connected, routed, auto, --
+PP-Bleaf-02, Eth1/7, --, xcvrAbsen, routed, auto, --
+PP-Leaf-02, Eth101/1/28, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Eth1/60, "PO 500 (vpc-peer-link) member PP-Bleaf-01-Ethernet1/60 to PP-Bleaf-02-Ethernet1/60", connected, trunk, 100G, QSFP-100G-AOC2M
+PP-Leaf-01, Eth101/1/3, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Vlan1921, DEV-RTR-03-FW|G5 fw:inside:DEV-CSP:DEV-RTR-03-FW:G1:DEV-RTR-03-FW, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/29, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan1911, LAN|DEV-RTR-05|G1 vnf:one:DEV-INTERNET:DEV-RTR-05:G1:DEV-RTR-05, connected, routed, auto, --
+PP-Bleaf-02, Eth1/8, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/7, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth101/1/30, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Vlan211, Fortigate-untrust fw:outside:DEV-CSP:Dev-FortiGate:Eth1:FortiGate, connected, routed, auto, --
+DEV-BLeaf-01, Vlan1921, DEV-RTR-03-FW|G5 fw:inside:DEV-CSP:DEV-RTR-03-FW:G1:DEV-RTR-03-FW, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/3, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Eth1/9, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-01, Eth1/8, --, xcvrAbsen, routed, auto, --
+PP-Leaf-01, Eth101/1/31, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan211, Fortigate-untrust fw:outside:DEV-CSP:Dev-FortiGate:Eth1:FortiGate, connected, routed, auto, --
+DEV-BLeaf-02, Vlan221, Palo-outside fw:outside:DEV-CSP:Dev-Palo:Eth1:DEV-Palo, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/30, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Eth1/9, --, xcvrAbsen, routed, auto, --
+PP-Bleaf-02, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/32, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan221, Palo-outside fw:outside:DEV-CSP:Dev-Palo:Eth1:DEV-Palo, connected, routed, auto, --
+DEV-BLeaf-02, Vlan2911, LAN|DEV-RTR-06|G1 vnf:one:DEV-INTERNET:DEV-RTR-06:G1:DEV-RTR-06, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/31, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Lo1, VTEP loopback interface, connected, routed, auto, --
+PP-Bleaf-01, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/33, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan2911, LAN|DEV-RTR-06|G1 vnf:one:DEV-INTERNET:DEV-RTR-06:G1:DEV-RTR-06, connected, routed, auto, --
+DEV-BLeaf-02, Vlan2916, vnf:one:DEV-WAN:DEV-RTR-01:G1:DEV-RTR-01 vnf:one:DEV-WAN:DEV-RTR-02:G1:DEV-RTR-02, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/32, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Lo1, VTEP loopback interface, connected, routed, auto, --
+PP-Bleaf-02, Lo200, for IBGP sessions, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/34, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan2916, vnf:one:DEV-WAN:DEV-RTR-01:G1:DEV-RTR-01 vnf:one:DEV-WAN:DEV-RTR-02:G1:DEV-RTR-02, connected, routed, auto, --
+DEV-BLeaf-02, Vlan2917, vnf:one:DEV-WAN:DEV-RTR-02:G1:DEV-RTR-02, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/33, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Lo200, for IBGP sessions, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/35, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Lo216, for IBGP sessions, connected, routed, auto, --
+DEV-BLeaf-01, Vlan2917, vnf:one:DEV-WAN:DEV-RTR-02:G1:DEV-RTR-02, connected, routed, auto, --
+DEV-BLeaf-02, Vlan3000, --, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/34, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Lo216, for IBGP sessions, connected, routed, auto, --
+PP-Bleaf-02, Lo217, for iBGP sessions in vrf guest, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/36, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan3000, --, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/35, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Vlan3001, --, connected, routed, auto, --
+PP-Bleaf-01, Lo217, for iBGP sessions in vrf guest, connected, routed, auto, --
+PP-Bleaf-02, Lo221, for IBGP sessions, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/37, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan3001, --, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/36, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Bleaf-02, Lo222, for IBGP sessions, connected, routed, auto, --
+PP-Bleaf-01, Lo221, for IBGP sessions, connected, routed, auto, --
+PP-Leaf-01, Eth101/1/38, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/37, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-02, mgmt0, --, connected, routed, 1000, --
+PP-Bleaf-01, Lo222, for IBGP sessions, connected, routed, auto, --
+PP-Bleaf-02, Lo234, for IBGP sessions, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/38, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/39, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, mgmt0, --, connected, routed, 1000, --
+DEV-BLeaf-02, nve1, --, connected, --, auto, --
+PP-Bleaf-01, Lo234, for IBGP sessions, connected, routed, auto, --
+PP-Bleaf-02, Po3, PP-FTD-01 Po3, connected, trunk, 40G, --
+PP-Leaf-01, Eth101/1/4, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/39, --, disabled, 1, auto, 100/1g
+DEV-BLeaf-01, nve1, --, connected, --, auto, --
+PP-Bleaf-01, Po3, PP-FTD-01 Po3, connected, trunk, 40G, --
+PP-Bleaf-02, Po4, PP-FTD-02 Po3, connected, trunk, 40G, --
+PP-Leaf-02, Eth101/1/4, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/40, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Po4, PP-FTD-02 Po3, connected, trunk, 40G, --
+PP-Bleaf-02, Po5, PP-LTM-01 Po5, connected, trunk, 10G, --
+PP-Leaf-02, Eth101/1/40, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/41, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Po5, PP-LTM-01 Po5, connected, trunk, 10G, --
+PP-Leaf-01, Eth101/1/42, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Po500, "vpc-peer-link PP-Bleaf-02--PP-Bleaf-01", connected, trunk, 100G, --
+PP-Leaf-02, Eth101/1/41, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/43, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Po500, "vpc-peer-link PP-Bleaf-01--PP-Bleaf-02", connected, trunk, 100G, --
+PP-Bleaf-02, Po501, PP-BLeaf01 Po501, connected, routed, 40G, --
+PP-Leaf-02, Eth101/1/42, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Po501.1216, EBP, connected, routed, 40G, --
+PP-Leaf-01, Eth101/1/44, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Po501, PP-BLeaf02 Po501, connected, routed, 40G, --
+PP-Leaf-02, Eth101/1/43, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Po501.1217, to PP-BLeaf-01 po501.1217, connected, routed, 40G, --
+PP-Bleaf-01, Po501.1216, EBP, connected, routed, 40G, --
+PP-Leaf-01, Eth101/1/45, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/44, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/46, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Po501.1221, PP-BLeaf01 Po501.1221, connected, routed, 40G, --
+PP-Bleaf-01, Po501.1217, to PP-BLeaf-02 po501.1217, connected, routed, 40G, --
+PP-Leaf-02, Eth101/1/45, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/47, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Po501.1221, PP-BLeaf02 Po501.1221, connected, routed, 40G, --
+PP-Bleaf-02, Po501.1222, PP-BLeaf01 Po501.1222, connected, routed, 40G, --
+PP-Leaf-02, Eth101/1/46, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/48, USCVGL01DNS102 LAN port 2, connected, 1213, 1000, 100/1g
+PP-Bleaf-01, Po501.1222, PP-BLeaf02 Po501.1222, connected, routed, 40G, --
+PP-Bleaf-02, Po501.1234, --, connected, routed, 40G, --
+PP-Leaf-02, Eth101/1/47, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Po501.1234, --, connected, routed, 40G, --
+PP-Bleaf-02, Po501.1910, PP-Bleaf01 Global, connected, routed, 40G, --
+PP-Leaf-01, Eth101/1/5, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/48, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Po501.1910, PP-Bleaf02 Global, connected, routed, 40G, --
+PP-Bleaf-02, Po6, PP-LTM-02 Po6, connected, trunk, 10G, --
+PP-Leaf-01, Eth101/1/6, --, disabled, 1, auto, 100/1g
+PP-Leaf-02, Eth101/1/5, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Po6, PP-LTM-02 Po6, connected, trunk, 10G, --
+PP-Leaf-01, Eth101/1/7, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Vlan1, --, down, routed, auto, --
+PP-Leaf-02, Eth101/1/6, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Vlan1, --, down, routed, auto, --
+PP-Leaf-01, Eth101/1/8, --, disabled, 1, auto, 100/1g
+PP-Bleaf-02, Vlan1108, F5_INSIDE, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/7, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Eth101/1/9, --, disabled, 1, auto, 100/1g
+PP-Bleaf-01, Vlan1108, F5_INSIDE, connected, routed, auto, --
+PP-Bleaf-02, Vlan1216, EBP_MPLS, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/8, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Bleaf-01, Vlan1216, EBP_MPLS, connected, routed, auto, --
+PP-Bleaf-02, Vlan1217, GUEST_VPN20, connected, routed, auto, --
+PP-Leaf-02, Eth101/1/9, --, disabled, 1, auto, 100/1g
+PP-Leaf-01, Lo1, VTEP loopback interface, connected, routed, auto, --
+PP-Bleaf-01, Vlan1217, GUEST_VPN20, connected, routed, auto, --
+PP-Bleaf-02, Vlan1221, INTERNET_UNTRUST, connected, routed, auto, --
+PP-Leaf-02, Lo0, Routing loopback interface, connected, routed, auto, --
+PP-Leaf-01, Po101, PP-LEAF01-FEX-101, connected, 1, 10G, --
+PP-Bleaf-01, Vlan1221, INTERNET_UNTRUST, connected, routed, auto, --
+PP-Bleaf-02, Vlan1222, CLOUD_PUBLIC_UNTRUST, connected, routed, auto, --
+PP-Leaf-02, Lo1, VTEP loopback interface, connected, routed, auto, --
+PP-Leaf-01, Po500, "vpc-peer-link PP-Leaf-01--PP-Leaf-02", connected, trunk, 40G, --
+PP-Bleaf-01, Vlan1222, CLOUD_PUBLIC_UNTRUST, connected, routed, auto, --
+PP-Bleaf-02, Vlan1234, CLOUD_EXTERNAL_UNTRUST, connected, routed, auto, --
+PP-Leaf-02, Po101, PP-LEAF02-FEX-101, connected, 1, 10G, --
+PP-Leaf-01, Vlan1, --, down, routed, auto, --
+PP-Bleaf-01, Vlan1234, CLOUD_EXTERNAL_UNTRUST, connected, routed, auto, --
+PP-Bleaf-02, Vlan1915, GUEST_TRUST, connected, routed, auto, --
+PP-Leaf-02, Po500, "vpc-peer-link PP-Leaf-02--PP-Leaf-01", connected, trunk, 40G, --
+PP-Leaf-01, Vlan1221, INTERNET_UNTRUST, connected, routed, auto, --
+PP-Bleaf-01, Vlan1915, GUEST_TRUST, connected, routed, auto, --
+PP-Bleaf-02, Vlan1916, EBP_TRUST, connected, routed, auto, --
+PP-Leaf-02, Vlan1, --, down, routed, auto, --
+PP-Leaf-01, Vlan1921, INTERNET_TRUST, connected, routed, auto, --
+PP-Bleaf-01, Vlan1916, EBP_TRUST, connected, routed, auto, --
+PP-Bleaf-02, Vlan1921, INTERNET_TRUST, connected, routed, auto, --
+PP-Leaf-02, Vlan1221, INTERNET_UNTRUST, connected, routed, auto, --
+PP-Leaf-01, Vlan1999, NEXUS_DASHBOARD_DATA, connected, routed, auto, --
+PP-Bleaf-01, Vlan1921, INTERNET_TRUST, connected, routed, auto, --
+PP-Leaf-02, Vlan1921, INTERNET_TRUST, connected, routed, auto, --
+PP-Bleaf-02, Vlan1922, CLOUD_PUBLIC_TRUST, connected, routed, auto, --
+PP-Leaf-01, Vlan3000, GLOBAL_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-01, Vlan1922, CLOUD_PUBLIC_TRUST, connected, routed, auto, --
+PP-Leaf-02, Vlan1999, NEXUS_DASHBOARD_DATA, connected, routed, auto, --
+PP-Bleaf-02, Vlan1934, CLOUD_EXTERNAL_TRUST, connected, routed, auto, --
+PP-Leaf-01, Vlan3001, INTERNET_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-01, Vlan1934, CLOUD_EXTERNAL_TRUST, connected, routed, auto, --
+PP-Leaf-02, Vlan3000, GLOBAL_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-02, Vlan1999, NEXUS_DASHBOARD_DATA, connected, routed, auto, --
+PP-Leaf-01, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Bleaf-01, Vlan1999, NEXUS_DASHBOARD_DATA, connected, routed, auto, --
+PP-Leaf-02, Vlan3001, INTERNET_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-02, Vlan3000, GLOBAL_VRF_VLAN, connected, routed, auto, --
+PP-Leaf-01, mgmt0, --, connected, routed, 1000, --
+PP-Leaf-02, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Bleaf-01, Vlan3000, GLOBAL_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-02, Vlan3001, INTERNET_VRF_VLAN, connected, routed, auto, --
+PP-Leaf-01, nve1, --, connected, --, auto, --
+PP-Leaf-02, mgmt0, --, connected, routed, 1000, --
+PP-Bleaf-01, Vlan3001, INTERNET_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-02, Vlan3002, cloud-external, connected, routed, auto, --
+PP-Leaf-02, nve1, --, connected, --, auto, --
+PP-Bleaf-02, Vlan3003, Guest_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-01, Vlan3002, cloud-external, connected, routed, auto, --
+PP-Bleaf-02, Vlan3004, Cloud-Public, connected, routed, auto, --
+PP-Bleaf-01, Vlan3003, Guest_VRF_VLAN, connected, routed, auto, --
+PP-Bleaf-02, Vlan3005, EBP, connected, routed, auto, --
+PP-Bleaf-01, Vlan3004, Cloud-Public, connected, routed, auto, --
+PP-Bleaf-02, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Bleaf-01, Vlan3005, EBP, connected, routed, auto, --
+PP-Bleaf-02, mgmt0, --, connected, routed, 1000, --
+PP-Bleaf-01, Vlan3600, VPC-Peer-Link SVI, connected, routed, auto, --
+PP-Bleaf-02, nve1, --, connected, --, auto, --
+PP-Bleaf-01, mgmt0, --, connected, routed, 1000, --
+PP-Bleaf-01, nve1, --, connected, --, auto, --
+PP-RTR-02, GigabitEthernet0/0/0, , down, , 1000Mbps, T
+PP-RTR-04, GigabitEthernet0/0/0, , up, , 1000Mbps, LX
+PP-RTR-01, GigabitEthernet0/0/0, , up, , 1000Mbps, T
+PP-RTR-06, GigabitEthernet0/0/0, ISP|GL-CLOUD-01|G1/0/14, up, , 1000Mbps, T
+PP-RTR-05, GigabitEthernet0/0/0, ISP|GL-CLOUD-01|G1/0/13, up, , 1000Mbps, T
+PP-RTR-03, GigabitEthernet0/0/0, LAN|Link to RTR004 Gi0/0/0, up, , 1000Mbps, LX
+DEV-RTR-02, GigabitEthernet1, Fabric|BL1&2|SVI2917, up, , 10000Mbps, Virtual
+DEV-RTR-01, GigabitEthernet1, Fabric|BL1&2|SVI2916, up, , 10000Mbps, Virtual
+DEV-RTR-04, GigabitEthernet1, , down, , 1000Mbps, Virtual
+DEV-RTR-05, GigabitEthernet1, Fabric|BL1&2|SVI1911, up, , 10000Mbps, Virtual
+DEV-RTR-03, GigabitEthernet1, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-06, GigabitEthernet1, Fabric|BL1&2|SVI2911, up, , 10000Mbps, Virtual
+PP-RTR-06, GigabitEthernet0/0/1, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/1, , up, , 1000Mbps, LX
+PP-RTR-01, GigabitEthernet0/0/1, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-04, GigabitEthernet2, , administratively down, , 1000Mbps, Virtual
+PP-RTR-02, GigabitEthernet0/0/1, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-03, GigabitEthernet2, , administratively down, , 10000Mbps, Virtual
+PP-RTR-05, GigabitEthernet0/0/1, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-06, GigabitEthernet2, , administratively down, , 10000Mbps, Virtual
+PP-RTR-03, GigabitEthernet0/0/1, LAN|Link to RTR004 Gi0/0/1, up, , 1000Mbps, LX
+DEV-RTR-01, GigabitEthernet2, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-02, GigabitEthernet2, , administratively down, , 10000Mbps, Virtual
+PP-RTR-06, GigabitEthernet0/0/2, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/2, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/2, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/2, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-05, GigabitEthernet3, ISP|GW:193.17.100.1, up, , 10000Mbps, Virtual
+PP-RTR-05, GigabitEthernet0/0/2, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/2, , down, , 1000Mbps, unknown media type
+DEV-RTR-04, GigabitEthernet3, , administratively down, , 1000Mbps, Virtual
+DEV-RTR-03, GigabitEthernet3, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-06, GigabitEthernet3, ISP|GW:193.17.100.1, up, , 10000Mbps, Virtual
+DEV-RTR-02, GigabitEthernet3, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-01, GigabitEthernet3, , administratively down, , 10000Mbps, Virtual
+PP-RTR-06, GigabitEthernet0/0/3, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/3, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/3, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-05, GigabitEthernet0/0/3, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-05, GigabitEthernet4, , up, , 10000Mbps, Virtual
+PP-RTR-01, GigabitEthernet0/0/3, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-04, GigabitEthernet4, , administratively down, , 1000Mbps, Virtual
+DEV-RTR-02, GigabitEthernet4, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-03, GigabitEthernet4, , administratively down, , 10000Mbps, Virtual
+PP-RTR-03, GigabitEthernet0/0/3, , down, , 1000Mbps, unknown media type
+DEV-RTR-01, GigabitEthernet4, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-06, GigabitEthernet4, , administratively down, , 10000Mbps, Virtual
+PP-RTR-06, GigabitEthernet0/0/4, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/4, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/4, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/4, , down, , 1000Mbps, unknown media type
+DEV-RTR-05, GigabitEthernet5, , administratively down, , 10000Mbps, Virtual
+PP-RTR-05, GigabitEthernet0/0/4, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-02, GigabitEthernet5, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-03, GigabitEthernet5, LAB|BL1&2|dev-rtr-03-fw-trust|vlan1921, up, , 10000Mbps, Virtual
+DEV-RTR-04, GigabitEthernet5, LAB|BL1&2|dev-rtr-03-fw-trust|vlan1921, up, , 1000Mbps, Virtual
+PP-RTR-01, GigabitEthernet0/0/4, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-06, GigabitEthernet5, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-01, GigabitEthernet5, , administratively down, , 10000Mbps, Virtual
+PP-RTR-06, GigabitEthernet0/0/5, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/5, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/5, , down, , 1000Mbps, unknown media type
+DEV-RTR-02, GigabitEthernet6, , administratively down, , 10000Mbps, Virtual
+PP-RTR-02, GigabitEthernet0/0/5, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-05, GigabitEthernet6, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-04, GigabitEthernet6, LAB|BL1&2|dev-rtr03-fw-untrust|vlan1221, up, , 1000Mbps, Virtual
+DEV-RTR-03, GigabitEthernet6, LAB|BL1&2|dev-rtr03-fw-untrust|vlan1221, up, , 10000Mbps, Virtual
+PP-RTR-05, GigabitEthernet0/0/5, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/5, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-01, GigabitEthernet6, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-06, GigabitEthernet6, Fortinet|untrust|vDS-vlan211, up, , 10000Mbps, Virtual
+PP-RTR-06, GigabitEthernet0/0/6, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/6, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/6, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-02, GigabitEthernet7, RTR001|VLAN2920, up, , 10000Mbps, Virtual
+DEV-RTR-04, GigabitEthernet7, , administratively down, , 1000Mbps, Virtual
+DEV-RTR-03, GigabitEthernet7, , administratively down, , 10000Mbps, Virtual
+DEV-RTR-05, GigabitEthernet7, RTR006|VLAN2921, up, , 10000Mbps, Virtual
+PP-RTR-03, GigabitEthernet0/0/6, , down, , 1000Mbps, unknown media type
+DEV-RTR-01, GigabitEthernet7, RTR002|VLAN2920, up, , 10000Mbps, Virtual
+PP-RTR-05, GigabitEthernet0/0/6, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/6, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-06, GigabitEthernet7, RTR005|VLAN2921, up, , 10000Mbps, Virtual
+PP-RTR-06, GigabitEthernet0/0/7, LAN|PP-TOR-02 1/0/6| Management rail, up, , 1000Mbps, T
+PP-RTR-04, GigabitEthernet0/0/7, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/7, , administratively down, , 1000Mbps, unknown media type
+DEV-RTR-04, GigabitEthernet8, LAN|mgmt|PP-TOR|VLAN999, up, , 1000Mbps, Virtual
+DEV-RTR-02, GigabitEthernet8, LAN|mgmt|PP-TOR|VLAN999, up, , 1000Mbps, Virtual
+DEV-RTR-05, GigabitEthernet8, LAN|mgmt|PP-TOR|VLAN999, up, , 1000Mbps, Virtual
+PP-RTR-05, GigabitEthernet0/0/7, LAN|PP-TOR-02 1/0/5| Management rail, up, , 1000Mbps, T
+DEV-RTR-01, GigabitEthernet8, LAN|MGMT|VLAN999, up, , 1000Mbps, Virtual
+PP-RTR-03, GigabitEthernet0/0/7, , down, , 1000Mbps, unknown media type
+DEV-RTR-03, GigabitEthernet8, LAN|mgmt|PP-TOR|VLAN999, up, , 1000Mbps, Virtual
+DEV-RTR-06, GigabitEthernet8, LAN|mgmt|PP-TOR|VLAN999, up, , 1000Mbps, Virtual
+PP-RTR-01, GigabitEthernet0/0/7, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/8, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/8, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-06, TenGigabitEthernet0/1/0, , up, 1, 10000Mbps, SFP-10G-AOC5M
+DEV-RTR-05, Loopback0, , up, , , 
+DEV-RTR-02, Loopback0, , up, , , 
+PP-RTR-03, GigabitEthernet0/0/8, , down, , 1000Mbps, unknown media type
+PP-RTR-05, TenGigabitEthernet0/1/0, , up, 1, 10000Mbps, SFP-10G-AOC5M
+DEV-RTR-01, Loopback0, , up, , , 
+DEV-RTR-06, Loopback0, , up, , , 
+PP-RTR-01, GigabitEthernet0/0/8, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/9, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/9, , down, , 1000Mbps, unknown media type
+PP-RTR-05, TenGigabitEthernet0/1/0.1911, LAN|PP-BLeaf-01|e1/17.1911|internet, up, 1911, , 
+PP-RTR-02, GigabitEthernet0/0/9, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-06, TenGigabitEthernet0/1/0.2911, LAN|PP-BLeaf-01|e1/18.2911|internet, up, 2911, , 
+DEV-RTR-05, Tunnel10, , up, , , 
+PP-RTR-01, GigabitEthernet0/0/9, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/10, , up, 1, 1000Mbps, LX
+PP-RTR-03, GigabitEthernet0/0/10, LAN|Link to BLeaf-02 Eth1/14, up, 1, 1000Mbps, LX
+PP-RTR-02, GigabitEthernet0/0/10, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-05, TenGigabitEthernet0/1/1, , up, , 10000Mbps, unknown media type
+PP-RTR-06, TenGigabitEthernet0/1/1, , up, , 10000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/10, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/10.1222, , up, 1222, , 
+PP-RTR-03, GigabitEthernet0/0/10.20, , up, 20, , 
+PP-RTR-06, TenGigabitEthernet0/1/2, , up, 1, 10000Mbps, SFP-10G-AOC5M
+PP-RTR-05, TenGigabitEthernet0/1/2, , up, 1, 10000Mbps, SFP-10G-AOC5M
+PP-RTR-02, GigabitEthernet0/0/11, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/11, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/10.1234, LAN|PP-Bleaf-01|E1/15.1234|VRF_cloud-external, up, 1234, , 
+PP-RTR-06, TenGigabitEthernet0/1/2.2911, LAN|PP-BLeaf-02|e1/18.2911|internet, up, 2911, , 
+PP-RTR-03, GigabitEthernet0/0/10.1222, , up, 1222, , 
+PP-RTR-02, GigabitEthernet0/0/12, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/12, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/11, , up, 1, 1000Mbps, LX
+PP-RTR-06, TenGigabitEthernet0/1/3, , up, , 10000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/13, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-05, TenGigabitEthernet0/1/3, , up, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/10.1234, LAN|PP-Bleaf-02|E1/14.1234|VRF_cloud-external, up, 1234, , 
+PP-RTR-01, GigabitEthernet0/0/13, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/11.1222, , up, 1222, , 
+PP-RTR-02, GigabitEthernet0/0/14, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-06, TenGigabitEthernet0/1/4, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-05, TenGigabitEthernet0/1/4, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/11, LAN|Link to BLeaf-01 Eth1/14, up, 1, 1000Mbps, LX
+PP-RTR-01, GigabitEthernet0/0/14, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/11.1234, LAN|PP-Bleaf-02|E1/15.1234|VRF_cloud-external, up, 1234, , 
+PP-RTR-02, GigabitEthernet0/0/15, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-06, TenGigabitEthernet0/1/5, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/15, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/11.1222, , up, 1222, , 
+PP-RTR-05, TenGigabitEthernet0/1/5, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/16, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/12, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-06, TenGigabitEthernet0/1/6, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/16, LAN|CVG OOB Lab, up, , 1000Mbps, T
+PP-RTR-03, GigabitEthernet0/0/11.1234, LAN|PP-Bleaf-01|E1/14.1234|VRF_cloud-external, up, 1234, , 
+PP-RTR-05, TenGigabitEthernet0/1/6, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/13, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/17, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-06, TenGigabitEthernet0/1/7, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/17, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/12, , down, , 1000Mbps, unknown media type
+PP-RTR-05, TenGigabitEthernet0/1/7, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-06, GigabitEthernet0, , administratively down, , Auto Speed, RJ45
+PP-RTR-04, GigabitEthernet0/0/14, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-01, GigabitEthernet0/0/18, PP-TOR-02|Ge1/0/47|BGP-to-MGMT, up, , 1000Mbps, T
+PP-RTR-02, GigabitEthernet0/0/18, PP-TOR-01|Ge1/0/47|BGP-to-MGMT, up, , 1000Mbps, T
+PP-RTR-03, GigabitEthernet0/0/13, , down, , 1000Mbps, unknown media type
+PP-RTR-05, GigabitEthernet0, , administratively down, , Auto Speed, RJ45
+PP-RTR-01, GigabitEthernet0/0/19, LAN|PP-TOR-02 G1/0/1|CNF Management rail, up, , 1000Mbps, T
+PP-RTR-04, GigabitEthernet0/0/15, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0/0/19, LAN|PP-TOR-02 G1/0/2|CNF Management rail, up, , 1000Mbps, T
+PP-RTR-03, GigabitEthernet0/0/14, , down, , 1000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet0/0/20, , down, , 10000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/16, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, TenGigabitEthernet0/0/20, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/15, , down, , 1000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet0/0/21, , down, , 10000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/17, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, TenGigabitEthernet0/0/21, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/16, , down, , 1000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet1/0/0, , down, , 10000Mbps, unknown media type
+PP-RTR-04, GigabitEthernet0/0/18, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-02, TenGigabitEthernet1/0/0, , down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0/0/17, , down, , 1000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet1/0/1, , up, 1, 10000Mbps, SFP-10G-AOC5M
+PP-RTR-02, TenGigabitEthernet1/0/1, , up, 1, 10000Mbps, SFP-10G-AOC5M
+PP-RTR-04, GigabitEthernet0/0/19, LAN|PP-TOR-02 1/0/4| Management rail, up, , 1000Mbps, T
+PP-RTR-03, GigabitEthernet0/0/18, , down, , 1000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet1/0/1.2916, , up, 2916, , 
+PP-RTR-04, TenGigabitEthernet0/0/20, , down, , 10000Mbps, unknown media type
+PP-RTR-02, TenGigabitEthernet1/0/1.2917, , up, 2917, , 
+PP-RTR-03, GigabitEthernet0/0/19, LAN|PP-TOR-02 1/0/3| Management rail, up, , 1000Mbps, T
+PP-RTR-01, TenGigabitEthernet1/0/2, , up, 1, 10000Mbps, SFP-10G-AOC5M
+PP-RTR-04, TenGigabitEthernet0/0/21, , down, , 10000Mbps, 10GBase-SR/SW
+PP-RTR-02, TenGigabitEthernet1/0/2, , up, 1, 10000Mbps, SFP-10G-AOC7M
+PP-RTR-03, TenGigabitEthernet0/0/20, , down, , 10000Mbps, unknown media type
+PP-RTR-02, TenGigabitEthernet1/0/2.2917, , up, 2917, , 
+PP-RTR-01, TenGigabitEthernet1/0/2.2916, , up, 2916, , 
+PP-RTR-04, GigabitEthernet0, , administratively down, , Auto Speed, RJ45
+PP-RTR-03, TenGigabitEthernet0/0/21, , down, , 10000Mbps, 10GBase-SR/SW
+PP-RTR-02, TenGigabitEthernet1/0/3, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet1/0/3, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/0, , administratively down, , 1000Mbps, LX
+PP-RTR-02, TenGigabitEthernet1/0/4, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet1/0/4, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/1, ECX|Lumen|ExpressRoute| SrvcId BDFQ1576, up, , 1000Mbps, LX
+PP-RTR-02, TenGigabitEthernet1/0/5, Cloud Router 2, down, , 10000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet1/0/5, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/1.791102, O365 Lab test Microsoft peering Service key 93f50a8c-6a88-4045-8a9c-faf56cdf0a97, up, , , 
+PP-RTR-02, TenGigabitEthernet1/0/6, MPLS, down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/1.791104, Azure Lab private peering using AWSLab VRF 93f50a8c-6a88-4045-8a9c-faf56cdf0a97, up, , , 
+PP-RTR-01, TenGigabitEthernet1/0/6, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-02, TenGigabitEthernet1/0/7, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet1/0/7, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/1.796796, AWS direct connect pub peering test AWS Account CCoE 711107443534 dxcon-fgh0h7ef, up, , , 
+PP-RTR-02, TenGigabitEthernet1/0/8, PP-RTR-01 Te1/0/8, up, , 10000Mbps, unknown media type
+PP-RTR-01, TenGigabitEthernet1/0/8, PP-RTR-02 Te1/0/8, up, , 10000Mbps, unknown media type
+PP-RTR-02, TenGigabitEthernet1/0/9, PP-RTR-01 Te1/0/9, up, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/1.797797, AWS direct conect priv peering test VPC CCoE 711107443534 dxvif-ffko1ok8, up, , , 
+PP-RTR-01, TenGigabitEthernet1/0/9, PP-RTR-02 Te1/0/9, up, , 10000Mbps, unknown media type
+PP-RTR-02, GigabitEthernet0, LAN|USCVGL00SWA015|Engineering LAB "Grey" Management rail, up, , 1000Mbps, RJ45
+PP-RTR-03, GigabitEthernet1/0/1.798798, Google Interconnect - Private, up, , , 
+PP-RTR-01, GigabitEthernet0, LAN|USCVGL00SWA015|Engineering LAB "Grey" Management rail, up, , 1000Mbps, RJ45
+PP-RTR-03, GigabitEthernet1/0/1.798799, Google Interconnect - Private Zone 2, up, , , 
+PP-RTR-03, GigabitEthernet1/0/1.799799, Google Interconnect - Public, up, , , 
+PP-RTR-03, GigabitEthernet1/0/2, , administratively down, , 1000Mbps, LX
+PP-RTR-03, GigabitEthernet1/0/3, , administratively down, , 1000Mbps, LX
+PP-RTR-03, GigabitEthernet1/0/4, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/5, , administratively down, , 1000Mbps, T
+PP-RTR-03, GigabitEthernet1/0/6, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/7, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/8, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/9, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/10, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/11, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/12, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/13, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/14, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/15, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/16, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet1/0/17, , administratively down, , 1000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/0, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/1, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/2, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/3, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/4, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/5, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/6, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/7, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/8, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, TenGigabitEthernet1/1/9, , administratively down, , 10000Mbps, unknown media type
+PP-RTR-03, GigabitEthernet0, , administratively down, , Auto Speed, RJ45

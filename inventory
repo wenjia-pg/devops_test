@@ -1,0 +1,75 @@
+[all:vars]
+ansible_connection=ansible.netcommon.network_cli
+#ansible_become=yes
+#ansible_become_method=enable
+ansible_user=labadmin
+ansible_password=Lab@dm1n
+
+
+[pp]
+PP-RTR-01 ansible_host=10.5.47.104
+PP-RTR-02 ansible_host=10.5.47.105
+PP-RTR-03 ansible_host=10.5.47.106
+PP-RTR-04 ansible_host=10.5.47.107
+PP-RTR-05 ansible_host=10.5.47.108
+PP-RTR-06 ansible_host=10.5.47.109
+PP-Bleaf-01 ansible_host=10.5.47.246
+PP-Bleaf-02 ansible_host=10.5.47.247
+PP-Leaf-01 ansible_host=10.5.47.249
+PP-Leaf-02 ansible_host=10.5.47.248
+PP-ALICSLeaf-01 ansible_host=10.5.47.242
+PP-ALICSLeaf-02 ansible_host=10.5.47.243
+
+[dev]
+DEV-RTR-01 ansible_host=10.5.47.84
+DEV-RTR-02 ansible_host=10.5.47.85
+DEV-RTR-03 ansible_host=10.5.47.86
+DEV-RTR-04 ansible_host=10.5.47.87
+DEV-RTR-05 ansible_host=10.5.47.88
+DEV-RTR-06 ansible_host=10.5.47.89
+DEV-BLeaf-01 ansible_host=10.5.47.222
+DEV-BLeaf-02 ansible_host=10.5.47.223
+DEV-Leaf-01 ansible_host=10.5.47.224 
+DEV-Leaf-02 ansible_host=10.5.47.225
+DEV-Spine-01 ansible_host=10.5.47.220
+DEV-Spine-02 ansible_host=10.5.47.221
+
+[ios]
+PP-RTR-01 ansible_host=10.5.47.104
+PP-RTR-02 ansible_host=10.5.47.105
+PP-RTR-03 ansible_host=10.5.47.106
+PP-RTR-04 ansible_host=10.5.47.107
+PP-RTR-05 ansible_host=10.5.47.108
+PP-RTR-06 ansible_host=10.5.47.109
+DEV-RTR-01 ansible_host=10.5.47.84
+DEV-RTR-02 ansible_host=10.5.47.85
+DEV-RTR-03 ansible_host=10.5.47.86
+DEV-RTR-04 ansible_host=10.5.47.87
+DEV-RTR-05 ansible_host=10.5.47.88
+DEV-RTR-06 ansible_host=10.5.47.89
+
+
+[ios:vars]
+ansible_network_os=cisco.ios.ios
+
+
+[nxos]
+PP-Bleaf-01 ansible_host=10.5.47.246
+PP-Bleaf-02 ansible_host=10.5.47.247
+PP-Leaf-01 ansible_host=10.5.47.249
+PP-Leaf-02 ansible_host=10.5.47.248
+PP-ALICSLeaf-01 ansible_host=10.5.47.242
+PP-ALICSLeaf-02 ansible_host=10.5.47.243
+DEV-BLeaf-01 ansible_host=10.5.47.222
+DEV-BLeaf-01 ansible_host=10.5.47.222
+DEV-BLeaf-02 ansible_host=10.5.47.223
+DEV-Leaf-01 ansible_host=10.5.47.224 
+DEV-Leaf-02 ansible_host=10.5.47.225
+DEV-Spine-01 ansible_host=10.5.47.220
+DEV-Spine-02 ansible_host=10.5.47.221
+
+
+
+[nxos:vars]
+ansible_network_os=cisco.nxos.nxos
+

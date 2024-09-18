@@ -1,0 +1,26 @@
+---
+- name: "PLAY 1: DEMO OF TEXTFSM"
+  hosts: PP-Bleaf-01
+  connection: network_cli
+  gather_facts: no
+  tasks:
+    - name: "TASK 1: GET COMMAND OUTPUT"
+      ios_command:
+        commands:
+          - show interface
+      register: interface_output
+
+    - name: "TASK 2: REGISTER OUTPUT TO DEVICE_NEIGHBORS VARIABLE"
+      set_fact:
+        device_interface: "{{ interface_output.stdout[0] | parse_cli_textfsm('./ntc-templates/ntc_templates/templates/cisco_nxos_show_interface.textfsm') }}"
+
+    - name: "TASK 3: PRINT OUTPUT"
+      debug:
+        msg: "{{ device_interface }}"
+
+    - name: "TASK 4: PRINT NEIGHBORS"
+      debug:
+        msg: "{{ item['INTERFACE'] }},{{ item['ADMIN_STATE'] }},{{ item['LINK_STATUS'] }},{{ item['MEDIA_TYPE'] }}"
+      loop: "{{ device_interface }}"
+      loop_control:
+        label: "{{ item['INTERFACE'] }}"

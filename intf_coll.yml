@@ -1,0 +1,71 @@
+---
+- name: interface infomation collections
+  hosts: all
+  gather_facts: false
+  tasks:
+
+####handle nxos
+
+  - name: Run "show interface description" and parse with ntc_templates
+    ansible.utils.cli_parse:
+      command: "show interface description"
+      parser:
+        name: ansible.netcommon.ntc_templates
+    register: sh_intf_des
+    when: inventory_hostname in groups.nxos
+    
+  - name: Run "show interface status" command and parse with ntc_templates
+    ansible.utils.cli_parse:
+      command: "show interface status"
+      parser:
+        name: ansible.netcommon.ntc_templates
+    register: sh_intf_sta
+    when: inventory_hostname in groups.nxos
+
+  - name: combin sta and des
+    set_fact:
+      info: "{{ [sh_intf_des.parsed, sh_intf_sta.parsed] | community.general.lists_mergeby('port') }}"
+    when: inventory_hostname in groups.nxos
+
+  - name: Add a line to a file if the file does not exist
+    ansible.builtin.lineinfile:
+      path: "./intf_collected_{{ lookup('pipe','date +%Y-%m-%d') }}"
+      line: >-
+            {{ inventory_hostname }},
+            {{ item.port }},
+            {{ item.description | default("--") }},
+            {{ item.status }},
+            {{ item.vlan_id }},
+            {{ item.speed }},
+            {{ item.type | default("none") }}
+      create: yes
+    loop: "{{ info }}"
+    loop_control:
+      label: "{{ item.port }}"
+    when: inventory_hostname in groups.nxos
+####handle ios
+
+  - name: Run "show interface status" command and parse with ntc_templates
+    ansible.utils.cli_parse:
+      command: "show interfaces"
+      parser:
+        name: ansible.netcommon.ntc_templates
+    register: sh_intf
+    when: inventory_hostname in groups.ios
+
+  - name: Add a line to a file if the file does not exist
+    ansible.builtin.lineinfile:
+      path: "./intf_collected_{{ lookup('pipe','date +%Y-%m-%d') }}"
+      line: >-
+            {{ inventory_hostname }},
+            {{ item.interface }},
+            {{ item.description | default("--") }},
+            {{ item.link_status }},
+            {{ item.vlan_id }},
+            {{ item.speed }},
+            {{ item.media_type | default("--") }}
+      create: yes
+    loop: "{{ sh_intf.parsed }}"
+    loop_control:
+      label: "{{ item.interface }}"
+    when: inventory_hostname in groups.ios

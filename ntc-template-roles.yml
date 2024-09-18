@@ -1,0 +1,30 @@
+---
+- name: "PLAY 2: DEMO OF TEXTFSM WITH NETWORK ENGINE"
+  hosts: PP-RTR-01
+  connection: network_cli
+  gather_facts: no
+  roles:
+    - ansible-network.network-engine
+  tasks:
+    - name: "TASK 1: GET COMMAND OUTPUT"
+      ios_command:
+        commands:
+          - show cdp neighbors
+      register: cdp_output
+
+    - name: "TASK 2: RUN THROUGH THE PARSER"
+      textfsm_parser:
+        file: "./ntc-templates/ntc_templates/templates/cisco_ios_show_cdp_neighbors.textfsm"
+        content: "{{ cdp_output.stdout[0] }}"
+        name: cdp_output
+
+    - name: "TASK 3: SHOW ANSIBLE FACTS OUTPUT"
+      debug:
+        msg: "{{ ansible_facts }}"
+
+    - name: "TASK 4: PRINT NEIGHBORS FROM ANSIBLE NETWORK ENGINE"
+      debug:
+        msg: "{{ item['LOCAL_INTERFACE'] }}: {{ item['NEIGHBOR_NAME'] }}"
+      loop: "{{ ansible_facts['cdp_output'] }}"
+      loop_control:
+        label: "{{ item['LOCAL_INTERFACE'] }}"

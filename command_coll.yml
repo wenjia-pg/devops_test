@@ -1,0 +1,22 @@
+---
+- name: interface infomation collections
+  hosts: localhost
+  gather_facts: false
+  vars:
+    list1:
+    - {name: foo, extra: true}
+    - {name: bar, extra: false}
+    - {name: meh, extra: true}
+
+    list2:
+    - {name: foo, path: /foo, extra: false}
+    - {name: baz, path: /baz}
+
+    list3: "{{ list1 | community.general.lists_mergeby(list2, 'name', list_merge='append') }}"
+ 
+  tasks:
+
+  - name: view result
+    debug:
+      msg:
+      - "{{ list3 }}"

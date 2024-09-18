@@ -1,0 +1,26 @@
+---
+- hosts: PP-RTR-01
+  gather_facts: no
+  tasks:
+#  - name: Gather all legacy facts
+#    cisco.ios.ios_facts:
+#      gather_network_resources:
+#      - interfaces
+#
+#  - name: VIEW ALL ANSIBLE FACT KEYS
+#    debug:
+#      var: ansible_network_resources.interfaces
+  - name: Run show version on remote devices
+    cisco.ios.ios_command:
+      commands: show interface
+    register: result
+
+#  - name: Gather facts of interfaces
+#    cisco.ios.ios_interfaces:
+#      config:
+#      state: gathered
+#    register: result
+
+  - name: view output of command
+    debug:
+      var: result
